@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>bind</title>
+</head>
+<body>
+
+<script>
+	Function.prototype.bind = function (context) {
+		var self = this;
+		return function () {
+			return self.apply(context, arguments);
+		}
+	};
+
+	var obj = { name: "sven"};
+
+	var func = function () {
+		console.log(this.name);
+		console.log(arguments);
+	}.bind(obj);	// 固定obj？
+
+	func("1","2","3");
+
+</script>
+</body>
+</html>

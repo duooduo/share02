@@ -2,10 +2,12 @@
  * Created by Lillian on 2016/12/29.
  */
 'use strict';
+
+var box = $('.p-bullet-box');
+
 var arrN = 0;
 var listJson;
 var bulletTimer = null;
-var box = $('.p-bullet-box');
 var hN = 1;
 
 $(function () {
@@ -27,7 +29,7 @@ $(function () {
 
 					// 伸缩效果
 					var obj = $(this);
-					var unitId = this.dataset.id;
+					// var unitId = this.dataset.id;
 					obj.addClass('active');
 					if(!obj.hasClass('on')){
 						obj.addClass('on');

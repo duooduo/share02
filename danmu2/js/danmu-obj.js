@@ -61,9 +61,10 @@ Danmu.prototype.upBullet = function () {
 	aBox.each(function(i){
 		var obj = $(this);
 		obj.show().attr('top',obj.attr('top') - step);
-		if(l<maxN){ var opp = op[i+(maxN-l)];}
-		else {var opp = op[i];}
-		if(obj.find(this.unit).hasClass('on')){ opp = 0.4;}
+		var opp = op[i];
+		if(l<maxN){ opp = op[i+(maxN-l)];}
+		// else {var opp = op[i];}
+		if(obj.find(This.unit).hasClass('on')){ opp = 0.4;}
 
 		obj.attr('style','-webkit-transition: -webkit-transform 0.5s ease-in, opacity 0.5s ease; transition: transform 0.5s ease-in, opacity 0.5s ease;-webkit-transform:translate3d(0, '+obj.attr('top')+'px, 0); transform:translate3d(0, '+obj.attr('top')+'px, 0); opacity:'+ opp +';');
 	});
@@ -112,7 +113,13 @@ Danmu.prototype.moveHeart = function (obj) {
 
 		var y = heart.dir * This.heartSetting.k*Math.sin(This.heartSetting.w*x);
 
-		heart.attr('style','left:'+heart.attr('left')+'px; top:'+heart.attr('top')+'px; -webkit-transform:translate3d('+y+'px,-'+x+'px,0); transform:translate3d('+y+'px,-'+x+'px,0); opacity:'+parseFloat((heart.top-x)/heart.top)+';');
+		heart.attr('style',
+			'left:'+heart.attr('left')+'px; ' +
+			'top:'+heart.attr('top')+'px; ' +
+			'-webkit-transform:translate3d('+y+'px,-'+x+'px,0); ' +
+			'transform:translate3d('+y+'px,-'+x+'px,0); ' +
+			'opacity:'+parseFloat((heart.top-x)/heart.top)+';'
+		);
 
 	}, 100);
 };

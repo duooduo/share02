@@ -3,6 +3,7 @@
 var box = $('.p-bullet-box');
 var listJson;
 var arrN = 0;
+var hN = 1;
 
 $(function () {
 	// 拉取弹幕
@@ -111,4 +112,34 @@ function moveHeart(obj) {
 		top: heart.attr('top') + 'px'
 	});
 	box.append(heart);
+	heart.t0 = new Date().getTime();
+	heart.top = Number(heart.attr('top')) + 10;
+
+	if(hN == 1) hN = -1;
+	else hN = 1;
+
+	heart.dir = hN;
+	heart.k = 10 + Math.random()*20; // 幅度 20
+	heart.v = 30 + Math.random()*20; // 速度 20
+	heart.w = 2*Math.PI/(70 + Math.random()*10); // 周期T=2π/w，w= 2π/T
+
+	heart.timer = window.setInterval(function () {
+		var t1 = new Date().getTime();
+		var x = (t1 - heart.t0)/1000*heart.v;
+		if(x > heart.top) {
+			clearInterval(heart.timer);
+			heart.remove();
+		}
+
+		var y = heart.dir * heart.k*Math.sin(heart.w*x);
+		heart.attr('style',
+			'left:'+heart.attr('left')+'px; ' +
+			'top:'+heart.attr('top')+'px; ' +
+			'-webkit-transform:translate3d('+y+'px,-'+x+'px,0); ' +
+			'transform:translate3d('+y+'px,-'+x+'px,0); ' +
+			'opacity:'+parseFloat((heart.top-x)/heart.top)+';'
+		);
+
+	}, 100);
+
 }

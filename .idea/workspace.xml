@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85b46e16-0e29-4cb2-b4ac-b703786a76b4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/danmu2/js/danmu-oop1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/danmu2/zan-oop.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/danmu2/js/danmu-obj.js" afterPath="$PROJECT_DIR$/danmu2/js/danmu-oop.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/danmu2/js/danmu1.js" afterPath="$PROJECT_DIR$/danmu2/js/danmu1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/danmu2/zan.html" afterPath="$PROJECT_DIR$/danmu2/zan.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,24 +28,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="zan.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zan.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/danmu2/zan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="324">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="danmu-obj.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/danmu2/js/danmu-obj.js">
+      <file leaf-file-name="zan-oop.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/danmu2/zan-oop.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="danmu-oop.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/danmu2/js/danmu-oop.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="445">
               <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
               <folding>
                 <marker date="1483064971000" expanded="true" signature="1940:2023" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="danmu-oop1.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/danmu2/js/danmu-oop1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,6 +133,8 @@
         <option value="$PROJECT_DIR$/danmu2/js/danmu.js" />
         <option value="$PROJECT_DIR$/danmu2/js/danmu1.js" />
         <option value="$PROJECT_DIR$/danmu2/zan.html" />
+        <option value="$PROJECT_DIR$/danmu2/zan-oop.html" />
+        <option value="$PROJECT_DIR$/danmu2/js/danmu-oop1.js" />
       </list>
     </option>
   </component>
@@ -168,15 +193,15 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zan/js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/danmu2/js" />
+      <recent name="$PROJECT_DIR$/danmu2" />
       <recent name="$PROJECT_DIR$/zan/css" />
       <recent name="$PROJECT_DIR$/zan/images" />
       <recent name="$PROJECT_DIR$/zan/js/data" />
-      <recent name="$PROJECT_DIR$/jsLib" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/zan/js" />
     </key>
   </component>
   <component name="RunManager">
@@ -253,7 +278,7 @@
       <workItem from="1482802529393" duration="8294000" />
       <workItem from="1483018735894" duration="10868000" />
       <workItem from="1483061714785" duration="9974000" />
-      <workItem from="1483684057103" duration="493000" />
+      <workItem from="1483684057103" duration="716000" />
     </task>
     <task id="LOCAL-00001" summary="add files">
       <created>1483030924154</created>
@@ -276,11 +301,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483089176548</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add files">
+      <created>1483684933561</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1483684933561</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34579000" />
+    <option name="totallyTimeSpent" value="34802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,7 +384,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/danmu2/js/danmu-obj.js">
+    <entry file="file://$PROJECT_DIR$/danmu2/js/danmu-oop.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1944">
           <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
@@ -406,7 +438,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/danmu2/js/danmu-obj.js">
+    <entry file="file://$PROJECT_DIR$/danmu2/js/danmu-oop.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -620,16 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/danmu2/js/danmu-obj.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
-          <folding>
-            <marker date="1483064971000" expanded="true" signature="1940:2023" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/danmu2/js/danmu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
@@ -652,8 +674,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/danmu2/zan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="324">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danmu2/zan-oop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danmu2/js/danmu-oop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+          <folding>
+            <marker date="1483064971000" expanded="true" signature="1940:2023" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danmu2/js/danmu-oop1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>

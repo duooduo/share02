@@ -126,26 +126,65 @@ Danmu.prototype.moveHeart = function (obj) {
 
 $(function () {
 	// 拉取弹幕
-	$.ajax({
-		url: './js/data/list_data.json',
-		type: 'POST',
-		dataType: 'json',
-		contentType: 'application/json;charset=UTF-8',
-		success: function(d) {
-			console.log(d);
-			if (d.code == 0) {
-
-				// 弹幕
-				var danmu1 = new Danmu( $('.danmu1') );
-				danmu1.init(d.data.list);
-
-				var danmu2 = new Danmu( $('.danmu2') );
-				danmu2.init(d.data.list);
-
+	var data = {
+		"list":[
+			{
+				"keyId": 88880,
+				"text": "1留言留言留言<img class=\"emoji\" draggable=\"false\" alt=\"❤\" src=\"https://twemoji.maxcdn.com/2/72x72/2764.png\">留言留言留言",
+				"praiseNum": 78,
+				"headUrl": "images/img01.jpg"
+			},
+			{
+				"keyId": 88881,
+				"text": "2留言留言留言留言留言留言留言留言留言留言留言留言 😂",
+				"praiseNum": 78,
+				"headUrl": "images/img01.jpg"
+			},
+			{
+				"keyId": 88882,
+				"text": "3留言留言留言",
+				"praiseNum": 78,
+				"headUrl": "images/img01.jpg"
+			},
+			{
+				"keyId": 88883,
+				"text": "4留言留言留言😂😂😂😂",
+				"praiseNum": 78,
+				"headUrl": "images/img01.jpg"
+			},
+			{
+				"keyId": 88884,
+				"text": "5留言留言留言 ~\\(≧▽≦)/~啦啦啦",
+				"praiseNum": 78,
+				"headUrl": "images/img01.jpg"
+			},
+			{
+				"keyId": 88884,
+				"text": "6留言留言留言 ~\\(≧▽≦)/~啦啦啦",
+				"praiseNum": 78,
+				"headUrl": "images/img01.jpg"
+			},
+			{
+				"keyId": 88884,
+				"text": "7留言留言留言 ~\\(≧▽≦)/~啦啦啦",
+				"praiseNum": 78,
+				"headUrl": "images/img01.jpg"
+			},
+			{
+				"keyId": 88884,
+				"text": "8留言留言留言 ~\\(≧▽≦)/~啦啦啦",
+				"praiseNum": 78,
+				"headUrl": "images/img01.jpg"
 			}
+		]
+	};
 
-		}
-	});
+	// 弹幕
+	var danmu1 = new Danmu( $('.danmu1') );
+	danmu1.init(data.list);
+
+	var danmu2 = new Danmu( $('.danmu2') );
+	danmu2.init(data.list);
 
 });
 

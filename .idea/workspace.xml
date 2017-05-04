@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="85b46e16-0e29-4cb2-b4ac-b703786a76b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/danmu-oop.js" afterPath="$PROJECT_DIR$/js/danmu-oop.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,9 +27,10 @@
       <file leaf-file-name="list_data.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/data/list_data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="120">
+              <caret line="54" column="3" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="54" selection-end-column="3" />
               <folding>
+                <element signature="e#62#1310#0" expanded="false" />
                 <marker date="1493879411664" expanded="true" signature="732:1304" ph="{&quot;keyId&quot;: 88884...}" />
               </folding>
             </state>
@@ -57,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zan-oop.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zan-oop.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zan-oop.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
@@ -67,13 +69,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="danmu-oop.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="danmu-oop.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/danmu-oop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="50" column="7" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+            <state relative-caret-position="412">
+              <caret line="127" column="11" lean-forward="true" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
               <folding>
-                <marker date="1493879597853" expanded="true" signature="1946:2029" ph="..." />
+                <element signature="e#3417#4487#0" expanded="false" />
+                <marker date="1493881359842" expanded="true" signature="1946:2029" ph="..." />
               </folding>
             </state>
           </provider>
@@ -122,6 +125,7 @@
         <option value="$PROJECT_DIR$/danmu2/js/danmu-obj.js" />
         <option value="$PROJECT_DIR$/danmu2/js/danmu-oop.js" />
         <option value="$PROJECT_DIR$/zan-oop.html" />
+        <option value="$PROJECT_DIR$/js/danmu-oop.js" />
       </list>
     </option>
   </component>
@@ -162,6 +166,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="share02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="share02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="share02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="share02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="share02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,7 +332,7 @@
       <workItem from="1482721437252" duration="4430000" />
       <workItem from="1482802529393" duration="8294000" />
       <workItem from="1483018735894" duration="10279000" />
-      <workItem from="1493880341724" duration="905000" />
+      <workItem from="1493880341724" duration="1034000" />
     </task>
     <task id="LOCAL-00001" summary="add files">
       <created>1493879797249</created>
@@ -305,11 +341,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493879797249</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add files">
+      <created>1493881251213</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1493881251213</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24823000" />
+    <option name="totallyTimeSpent" value="24952000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,16 +474,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/danmu/index.html" />
-    <entry file="file://$PROJECT_DIR$/js/data/list_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <marker date="1493879411664" expanded="true" signature="732:1304" ph="{&quot;keyId&quot;: 88884...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/danmu2/zan.html" />
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -461,12 +494,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/danmu2/js/danmu-obj.js" />
-    <entry file="file://$PROJECT_DIR$/js/danmu-oop.js">
+    <entry file="file://$PROJECT_DIR$/js/data/list_data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="50" column="7" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        <state relative-caret-position="120">
+          <caret line="54" column="3" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="54" selection-end-column="3" />
           <folding>
-            <marker date="1493879597853" expanded="true" signature="1946:2029" ph="..." />
+            <element signature="e#62#1310#0" expanded="false" />
+            <marker date="1493879411664" expanded="true" signature="732:1304" ph="{&quot;keyId&quot;: 88884...}" />
           </folding>
         </state>
       </provider>
@@ -476,6 +510,17 @@
         <state relative-caret-position="480">
           <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/danmu-oop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="127" column="11" lean-forward="true" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
+          <folding>
+            <element signature="e#3417#4487#0" expanded="false" />
+            <marker date="1493881359842" expanded="true" signature="1946:2029" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

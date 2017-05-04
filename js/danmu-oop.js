@@ -30,7 +30,7 @@ Danmu.prototype.init = function (data) {
 		This.upBullet();
 	}, 1500);
 
-	this.$box.on('touchend', this.unit, function(){
+	this.$box.on('touchend click', this.unit, function(){
 		var obj = $(this);
 		// 伸缩效果
 		obj.addClass('active');

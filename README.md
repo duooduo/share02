@@ -8,5 +8,5 @@
 4. 利用对象封装，使两个弹幕区域互不影响。
  
 ## 效果截图
-![](https://duooduo.github.io/share02/images/screenshot1.png)
-![](https://duooduo.github.io/share02/images/screenshot2.png)
+![](https://duooduo.github.io/share02/screenshot1.png)
+![](https://duooduo.github.io/share02/screenshot2.png)
